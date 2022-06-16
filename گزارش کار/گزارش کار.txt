@@ -1,0 +1,1542 @@
+
+
+
+
+استاد مربوطه : دکتر فاطمه نورانی
+نام و نام خانوادگی : زهرا حق ویردی
+موضوع : طراحی سایت فروشگاهی کفش
+شماره دانشجویی : 970087107
+
+
+
+
+
+
+
+
+دانشگاه پیام نور شهریار ۱۴۰۰- ۱۴۰۱
+فهرست 
+عنوان                                                                                            صفحه
+مقدمه
+کلمات کلیدی
+1 . فصل اول : تعریفی ها
+1-1.	سایت چیست ؟
+1-2.	مرورگر چیست ؟
+1-3.	Http چیست؟
+1-4.	سرور چیست ؟
+1-5.	برنامه نویسی چیست؟
+1-6.	زبان های برنامه نویسی 
+1-7.	فرانت اند چیست ؟
+1-8.	بک اند چیست ؟
+1-9.	Html چیست؟
+1-10.	Css چیسست ؟
+1-11.	Javascript چیست؟
+1-12.	Jquery چیست؟
+1-13.	ریسپانسیو سایت چیست ؟
+2.  فصل دوم : درباره پروژه
+2-1. درباره سایت
+2-2. زبان های به کاربرده شده
+2-3. پلاگین های استفاده شده
+2-4. پلاگین چیست؟
+عنوان                                                                                            صفحه
+3. فصل سوم : تصاویری از سایت
+3-1. صفحه اصلی
+3-2. صفحه ورود – عضویت – فراموش کردن رمز عبور – کد تائید
+3-3. صفحه گالری محصولات
+3-4 . صفحه درباره ما
+3-5. صفحه تماس با ما
+3-6. صفحه 404
+4.  فصل چهارم : توضیح کد ها
+4-1. header
+4-2. footer
+4-3. dark mode
+4-4. سبد خرید
+4-5. searck box
+4-6. اسلایدر ها
+4-7. صفحه اصلی
+4-8. عضویت و ورود
+4-9. درباره ما
+4-10. تماس با ما
+4-11. گالری محصولات
+نتیجه گیری 
+منابع 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+مقدمه
+برای تبدیل بازدیدکنندگان سایت به مشتری به طراحی سایت فروشگاهی خوب نیاز دارید. منظور از طراحی سایت فروشگاهی خوب سایتی است که فقط ظاهر خوب سایت، فونت، رنگ، تصاویر و ... دیگر نیست، بلکه منظور ارائه یک تجربه خرید بدون دردسر به مشتریان است. در این دنیای رقابتی، شما فقط با برندهای محلی و منطقه ای رقابت نمی کنید، بلکه با غول هایی مانند دیجی کالا، تیمچه و ... سروکار دارید. به همین دلیل بسیار مهم است که روی تمام جزئیات سایت های فروشگاهی تمرکز کنید.
+بنابراین، اگر می خواهید کسب و کارتان را آنلاین کنید تا به کسب درآمد بالا برسید، باید سایت خوب طراحی کنید تا در کوتاه ترین زمان به کسب و کارتان رونق ببخشید . 
+در این گزارش ما یک سایت فروشگاهی ، فروش کفش را طراحی کرده ایم که در ادامه با امکانات و صفحات این سایت و نحوه کارکرد با ان اشنا خواهیم شد.
+
+کلمات کلیدی
+سایت – سبد خرید- کفش – فروشگاه – سایت فروشگاهی – فرانت اند- طراحی – برنامه نویسی – پلاگین
+
+1	. فصل اول : تعریفی ها
+1-1.	سایت چیست ؟
+سایت اصطلاحا به جایی در اینترنت گفته می‌شود که یک صفحه یا تعداد بیشتری از صفحات را در خود جا
+داده است. هریک از صفحات آن نیز دارای محتوا و اطلاعات مختلفی اعم از متن، تصویر، فیلم، فایل های
+صوتی و… وجود دارد. هر سایتی در دنیای وب، دارای یک آدرس یا URL است که از بخش‌های مختلفی
+تشکیل شده است.
+وب سایت‌ها نیز به مانند ما انسان‌ها دارای اسمی منحصر به فرد هستند که در دنیای وب به آن‌ها دامنه یا
+دامین گفته می‌شود. هر سایتی دارای یک دامین و یک شماره شناسایی منحصر بفردیا IP می‌باشد تا از
+باقی صفحات متمایز شود. همچنین پس از هر دامنه‌ی منحصر به فرد، آدرس سایت دارای یک پسوند
+می‌باشد که با آن به اتمام می‌رسد. در ایران رایج‌ترین این پسوندها com، ir، org و… می‌باشند.
+صفحات وب عموما با HTML نوشته می‌شوند و در حقیقت کدهای HTML، سنگ بنای هر صفحه اینترنتی
+می‌باشند که با استفاده از پروتکل‌های PHP می‌توان به آن دسترسی پیدا کرد. در واقع وظیفه این پروتکل
+گرفتن و انتقال دادن اطلاعات از سرور سایت به مرورگر جهت نمایش آن به کاربر می‌باشد.
+
+1-2.	مرورگر چیست ؟
+ویکی پدیا در تعریف مرورگر یا مرورگر وب می گوید: «Web Browser یا مرورگر وب برنامه نرم افزاری است که دیتا را از منابع اطلاعاتی وب جهان شمول دریافت کرده، به نمایش می گذارد و یا باز پس می فرستد. این منابع اطلاعاتی می توانند صفحات اچ تی ام ال و وب پیج، عکس، ویدیو و انواع دیگری از محتوا باشند.»
+به زبان ساده تر می توانیم بگویم که مرورگر وب یک برنامه یا نرم افزار است که دریافت و مشاهده اسناد و دیگر منابع محتوا از اینترنت را برای کاربران به شکل ساده ای امکان پذیر می سازد.
+1-3.	Http چیست؟
+پروتکل‌های اینترنتی به عنوان مهم‌‌ترین و پرکاربردترین استاندارد برای تبادل اطلاعات در شبکه‌‌های اینترنتی شناخته می‌شوند. پروتکل HTTP یا Hyper Text Transfer Protocol یکی از استانداردهای پرکاربرد تعریف شده برای شبکه‌های اینترنتی است که مدتی بعد از ساخت اولین سایت‌ها ایجاد شد. این استاندارد به تدریج توسعه پیدا کرد و کنسرسیوم جهانی وب (W3C) وظیفه توسعه و نظارت این پروتکل را بر عهده گرفت.
+در گذشته روش استانداردی برای تبادل اطلاعات در شبکه اینترنت وجود نداشت. به همین دلیل تیم برنرز لی (Tim Berners-Lee) در سال 1991 پروتکل Http را با هدف پیاده سازی یک استاندارد برای تبادل اطلاعات در شبکه اینترنت ایجاد کرد. برنرز لی این پروتکل را به همراه ساختار اولیه HTML در یک وب سرور ساده و یک مرورگر مبتنی بر متن ارائه کرد.
+Http مخفف عبارت Hyper Text Transfer Protocol است که به معنی پروتکلی برای انتقال ابرمتن‌ها می‌باشد. بر اساس این پروتکل، امکان ایجاد صفحات وب و سایت‌های اینترنتی فراهم شد. این پروتکل وظیفه برقراری ارتباط میان سرور و کلاینت را در یک شبکه کامپیوتری برعهده دارد. به عبارتی دیگر این پروتکل مسئولیت برقراری ارتباط بین سرویس دهندگان و سرویس گیرندگان وب را برعهده دارد.
+
+
+1-4.	سرور چیست ؟
+یک کامپیوتر خانگی هم که سیستم‌های دیگر به آن متصل هستند و خدمات دریافت می‌کنند، یک سرور به شمار می‌آید. در حقیقت تنها تفاوت آن با سایر کامپیوتر‌های خانگی امکان اتصال آن به شبکه و ارائه خدمات به سایر سیستم‌ها است. این کار به کمک برنامه‌ها و تنظیماتی که بر روی آن پیاده شده اند، امکان پذیر می‌شود. برای مثال زمانی که شما سایت‌های مختلفی را در مرورگر خود وارد می‌کنید و به استفاده از خدمات آن‌ها می‌پردازید، در واقع شما نقش سرویس گیرنده یا همان کلاینت را بازی می‌کنید.
+همچنین سیستمی هایی که تحت شبکه به شما این خدمات را ارائه می‌کنند، سرور یا سرویس دهنده نام دارند. بنابراین شبکه جهانی اینترنت بر پایه ارتباط میلیون‌ها سرور و سرویس گیرنده شکل گرفته است که روز به روز به تعداد آن‌ها افزوده می‌شود. معمولا منظور از سرور به صورت عامیانه، به مفهوم آن در زمینه وب هاستینگ اشاره دارد. در زمینه وب هاستینگ، سرور معمولا یک ابر رایانه است که به لحاظ سخت افزاری از سیستم‌های معمولی بسیار قدرتمند‌تر است.
+همچنین این رایانه‌ها همیشه متصل به شبکه جهانی اینترنت و در دسترس خواهند بود. اینگونه سرورها فضای مورد نیاز برای ذخیره اطلاعات مربوط به وب سایت‌ها و سایر نرم افزارهای تحت وب را فراهم می‌سازند. بنابراین کاربران قادر خواهند بود همیشه به اطلاعات این سایت‌ها و نرم افزارها دسترسی داشته باشند.
+ 
+
+
+
+1-5.	برنامه نویسی چیست؟
+برنامه‌نویسی یک روش حل مسئله به کمک کامپیوتر است. فرض کنید که وارد بانک می‌شوید و کدملی خود را به متصدی بانک اعلام می‌کنید. متصدی به کمک تنها یک کد تمامی اطلاعات حساب بانکی شما را پیدا می‌کند. مشخصات شما، گردش‌های مالی، موجودی و ….
+این امکان به کمک برنامه‌نویسی ایجاد شده است. سیستمی که برای بانک طراحی شده با دریافت کدملی شما، اطلاعات شما را از میان میلیون‌ها اطلاعات دیگر پیدا کرده و در قالب جداول نمایش می‌دهد. در واقع یک تیم برنامه‌ نویسی این سیستم را به این صورت برنامه‌نویسی کرده‌اند. بنابراین می‌توان گفت برنامه‌نویسی یک علم است که به کمک آن می‌توان به کامپیوتر دستوراتی برای اجرا داد. دستورات را در قالب کدهایی به کامپیوتر می‌دهیم این اطلاعات و دستورات در مغز کامپیوتر (CPU) پردازش می‌شوند و خروجی کار به کاربر نمایش داده می‌شود. جالب است بدانید کامپیوتر‌ها زبان‌ انسان‌ها را درک نمی‌کنند. آنها تمامی اطلاعات را به صورت اعداد صفر و یک می‌بینند! یک برنامه‌نویس به کمک یک زبان برنامه‌نویسی منظور خود را به یک نرم افزار منتقل می‌کند. این دستورات به کدهای ۰ و ۱ تبدیل می‌شوند و کامپیوتر آنها را درک کرده و پردازش می‌کند! اگر بخواهیم این مفهوم را به جمع‌بندی شده تعریف کنیم بهتر است بگوییم برنامه‌نویسی علم حل مسئله به کمک کامپیوتر است.
+ 
+
+1-6.	زبان های برنامه نویسی 
+به زبان خیلی ساده،‌ برنامه نویسی عبارت است از نوشتن دستوراتی که یک سیستم -مثل کامپیوتر- آن‌ها را متوجه شده و دستورات ما را یکی پس از دیگری اجرا می کند. حال، یک زبان برنامه نویسی لغات، دستورات و قوانینی را در اختیار ما به عنوان یک برنامه نویس قرار می‌دهد که از آن طریق می‌توانیم با کامپیوترها و سیستم‌های کامپیوتری صحبت کنیم. به خاطر داشته باشید به مجموعه دستوراتی که در قالب یک پکیج قرار می‌گیرند و در اختیار سیستم گذاشته شده و سیستم هم آن را متوجه می شود، نرم‌افزار یا اپلیکیشن گفته می شود.در برنامه نویسی اصطلاحاً به هر دستوری که می خواهیم اجرا شود یک Statement گفته می شود. حال برای نوشتن تعدادی Statement ما نیاز به یک ویرایشگر متن داریم تا بتوانیم دستورات مد نظر را در آن وارد سازیم. انواع زبان های برنامه نویسی میتوان ( جاوااسکریپت ، php ، java و ...) را نام برد.
+1-7.	فرانت اند چیست ؟
+فرانت اند یا Front End، به بخش قابل مشاهده‌ی یک وب سایت یا نرم افزار توسط کاربران می‌گویند. فرانت اند، کدهای غیر قابل فهم برای کاربران را در قالب ظاهری گرافیکی و بصری به آن‌ها نمایش می‌دهد تا بتوانند به راحتی از بخش‌های مختلف سایت استفاده کنند. در این بخش، فرم‌های ورودی اطلاعات، صداها، تصاویر، ویدئوها و به صورت کلی هر چیز دیگری که برای کاربر قابل درک باشد، قرار می‌گیرد.
+فرانت اند به دو بخش اصلی طراحی و توسعه رابط کاربری تقسیم می‌شود. در بخش طراحی، طراحان با نرم افزارهای گرافیکی مانند فتوشاپ، ادوبی ایکس دی، فیگما و… ظاهر سایت را طراحی می‌کنند. اما بخش توسعه‌ی رابط کاربری مربوط به پیاده سازی ظاهر سایت در قالب کدهای HTML ،CSS و جاوا اسکریپت است. بخش قابل مشاهده‌ سایت برای کاربران در سمت فرانت را سمت کاربر یا Client Side می‌نامند. بنابراین کدهای نوشته شده در سمت فرانت اند، در مرورگر کاربر پردازش و اجرا می‌شوند. یعنی کاربر به راحتی به این کدها دسترسی مستقیم دارد و می‌تواند آن‌ها را مشاهده کند. فرانت اند با بخش بک اند (Backend) در ارتباط مستقیم است و بر روی تجربه کاربران هنگام استفاده از محصول تاثیر بسیاری می‌گذارد.
+
+1-8.	بک اند چیست ؟
+Backend یا بک اند، به بخشی از یک وب سایت یا نرم افزار می‌گویند که برای کاربران قابل مشاهده نیست. به عبارتی دیگر هسته و مغز یک سایت است که وظیفه کنترل منطق آن را بر عهده دارد. سایت‌های دینامیک به برنامه نویس بک اند نیاز دارند تا منطق سایت را به وسیله زبان‌های برنامه نویسی پیاده‌سازی کنند. کاربران به کدهای نوشته‌شده در بک اند دسترسی ندارند و نمی‌ توانند آن‌ها را مشاهده کنند.
+این بخش از سایت مانند قسمتی از کوه یخ است که در زیر سطح آب قرار گرفته است. سمت سرور با بخش سمت کاربر ارتباط مستقیم دارد و به اجزایی که در رابط کاربری طراحی شده‌اند جان می‌بخشد. برنامه نویس بک اند باید اطلاعات را متناسب با اهداف مختلف از پایگاه‌داده دریافت کند و در صورت نیاز پس از پردازش به کاربر نمایش دهد. بنابراین Backend از دو بخش منطق سایت و پایگاه داده تشکیل شده است.
+
+1-9.	Html چیست؟
+عبارت HTML ( اچ تی ام ال ) مخفف Hyper Text Markup Language به معنی زبان نشانه گذاری فوق متن است. Html زبان استاندارد طراحی صفحات وب است و کليه کدهای صفحه اعم از طرف سرور و طرف مشتری در نهايت به کدهای HTML تبديل شده و توسط مرورگر نمايش داده می شوند.
+به عبارت دیگر مرورگر ها هیچکدام از کدها و کنترل های سمت سرور همچون کدهای asp و php را نمیشناسند و کد قابل فهم برای آنها اچ تی ام ال می باشد.
+کامپایلر های زبان های برنامه نویسی سروری در نهایت کد های خود را برای نمایش به کد اچ تی ام ال تبدیل میکنند و برای مرورگر میفرستند تا به کاربران نمایش داده شود.
+HTML یک زبان نشانه گذاری است ، به اين معنی که بخش های مختلف توسط اجزايی به نام تگ از هم جدا شده ، که هر کدام دارای کاربرد و خواص مربوط خود هستند . اين تگ ها به مرورگر اعلام می کنند که هر بخش از صفحه چه نوع عنصری است و بايد به چه صورت نمايش داده شود .
+در يک صفحه HTML می توان انواع عناصر از قبيل متن ، تيتر ، عکس ، جدول  و ... را قرار داد ، که برای هر عنصر بايد از تگ مربوط به آن استفاده کرد . صفحات HTML فقط از کد ها که به صورت متن هستند تشکيل شده اند. بدین معنا که برای تصویر کد مربوط به تمایش تصویر و جدول و ... کدهای اچ تی ام ال مربوط به هر یک را باید نوشت و مرورگر با رسیدن به این کد ها و تگ ها ، المنت های مرتبط با آن را نمایش می دهد.
+ هر یک از کدهای html ، معنا و مفهوم خاصی دارند و تأثیر مشخصی بر محتوا می‌گذارند. مثلاً برچسب‌هایی برای تغییر شکل ظاهری متن، نظیر درشت و ضخیم کردن یک کلمه یا برقراری پیوند به صفحات دیگر در اچ‌تی‌ام‌ال تعریف شده‌اند.
+
+یک سند اچ‌تی‌ام‌ال، یک پرونده مبتنی بر متن ( Text–based) است که معمولاً با پسوند .htm یا .html نام‌گذاری شده و محتویات آن از برچسب‌های اچ‌تی‌ام‌ال تشکیل می‌شود. مرورگرهای وب، که قادر به درک و تفسیر برچسب‌های اچ‌تی‌ام‌ال هستند، تک‌تک آن‌ها را از داخل سند اچ‌تی‌ام‌ال خوانده و سپس محتوای آن صفحه را نمایان‌سازی (Render) می‌کنند.
+اچ‌تی‌ام‌ال زبان برنامه‌نویسی نیست، بلکه زبانی برای نشانه‌گذاری ابرمتن است و اساساً برای ساخت‌مند کردن اطلاعات و جدایش اجزای منطقی یک نوشتار — نظیر عناوین ، تصاویر ، فهرست‌ها ، بندها و جداول — به کار می‌رود. از سوی دیگر، اچ تی ام ال را نباید به عنوان زبانی برای صفحه‌آرایی یا نقاشی صفحات وب به کار بُرد؛ این وظیفه اکنون بر دوش فناوری‌های دیگری همچون سی اس اس ( Css ) است
+
+
+1-10.	Css چیست ؟
+اولین قدم برای طراحی سایت ، HTML و سپس CSS است. این دو زبان در کنار یکدیگر معنی پیدا می‌کنند. زیرا CSS را می‌توان مکملی بر زبان HTML دانست که با هدف پر کردن نقاط ضعف و خلاء‌های آن توسعه یافته است. CSS مخفف عبارت Cascading Style Sheets و به معنی “برگه‌های آبشاری” است.
+این زبان با هدف فرم دهی صفحات وب HTML و اجزای مختلف صفحات آن توسط کنسرسیوم بین المللی شبکه جهانی وب یا W3C توسعه داده شده است. در واقع CSS یک زبان نشانه‌ گذاری است که اجازه می‌دهد ساختار صفحات وب را از چیدمان عناصر گرفته تا تغییر رنگ‌بندی و فونت‌ها شکل دهید. این زبان در کنار HTML و JavaScript از هسته‌های اصلی طراحی صفحات وب به حساب می‌آیند.
+
+1-11.	Javascript چیست؟
+JavaScript که به اختصار JS نیز نامیده می‌شود، یکی از محبوبترین زبان‌های برنامه نویسی است. جاوا اسکریپت زبانی سطح بالا، داینامیک، شی‌گرا و تفسیری است که از شیوه‌های مختلف برنامه نویسی پشتیبانی می‌کند. از این زبان می‌توان برای برنامه نویسی سمت سرور (Server Side)، اپلیکیشن‌های موبایل، بازی و اپلیکیشن‌های دسکتاپ استفاده کرد. بنابراین می‌توان اینگونه برداشت کرد که زبان برنامه نویسی جاوا اسکریپت ، یک زبان همه فن حریف است.
+1-12.	Jquery چیست؟
+ Jquery کتابخانه جاوا اسکریپت است که چند مورد از کارکردهای آن عبارتند از:
+•	پیمایش اسناد html
+•	رسیدگی به رویدادها
+•	متحرک سازی
+•	تسهیل در تعاملات AJAX به منظور توسعه سریع‌تر وب و…
+این کتابخانه به نحوی طراحی شده است تا بتواند روش نوشتن جاوا اسکریپت را تغییر دهد. هدف از طراحی این ابزار فوق العاده، سهولت استفاده از زبان برنامه نویسی جاوا اسکریپت در صفحات طراحی وب است. به یاد داشته باشید که برخلاف باور برخی از برنامه نویسان مبتدی، Jquery جایگزینی برای جاوا اسکریپت نیست
+
+1-13.	ریسپانسیو سایت چیست ؟
+طراحی ریسپانسیو (Responsive Design) یا واکنشگرا مربوط به تغییر ظاهر صفحات سایت متناسب با سایز مرورگر کاربران است.
+Responsive که در فارسی با واژه‌ی واکنشگرا هم مطرح می‌شود، روشی برای طراحی وب است که باعث می‌شود صفحات وب در انواع دستگاه‌ها و اندازه‌های صفحه نمایش به خوبی ارائه شوند.
+به این معنی که ظاهر وب‌سایت در تمام دستگاه‌هایی که کاربر با آن از سایت دیدن می‌کند (مثل موبایل، تبلت، لپتاپ و..)، مناسب و بهینه باشد.
+امروزه کاربران با موبایل، تبلت، لپتاپ و.. از اینترنت استفاده می‌کنند. صفحات وب باید به گونه‌ای باشند که کاربر موقع استفاده از آن نیاز به زوم کردن، اسکرول کردن افقی و… را نداشته باشد، متن‌ها خوانا و دکمه‌ها قابل کلیک باشند.
+به تصویر زیر نگاه کنید. این یک نمونه از طراحی رسپانسیو است. در نمایشگر موبایل و تبلت چینش عناصری که در نمایشگر کامپیوتر بوده تغییر کرده است تا برای بیننده رابط کاربری مناسب‌تری را ایجاد کند.
+ 
+در طراحی ریسپانسیو طراح سایت باید بر حسب تجربه و خلاقیت خود برای هر سایز از صفحه یک طرح مناسب در نظر بگیرد.
+
+2.  فصل دوم : درباره پروژه
+2-1. درباره سایت
+سایت فروشگاهی طراحی شده به منظوره انجام پروژه درس پروژه پایانی است. 
+این سایت یک طراحی سایت داینامیک است که امکاناتی مانند:
+ dark mode ، افزودن محصول به سبد خرید ، حذف محصول از سبد خرید، شمارنده تعداد محصولات در سبد خرید با توجه با اضافه و حذف شدن محصول از سبد خرید، سرچ باکس، اعتبار سنجی فرم ها ، دسته بندی و فیلتر کردن محصولات را دارد و همچون این سایت به صورت ریسپانسیو طراحی شده است که در تمام ابعاد لپ تاپ ، موبایل ، تبلت در همه فرمت ها قابل واکنش و به صورت منظم قابل مشاهده و نمایش است که جلوتر با ان رو به رو خواهیم شد. فونت استفاده شده در این سایت ایران سنس هست که یکی از محبوب ترین فونت ها در طراحی سایت است.
+سایت فروشگاهی(کفش) طراحی شده دارای صفحات مختلفی  است که در جلو تر با هر قسمتبه صورت جزئی تر بیشتر اشنا خواهیم شد:
+•	صفحه home (اصلی)
+•	صفحه عضویت – ورود – فراموش کردن رمز عبور – کد تائید
+•	صفحه درباره ما
+•	صفحه تماس با ما
+•	صفحه گالری محصولات
+•	صفحه 404
+هر صفحه از سایت دارای بخش های مختلفی است که به قسمت خاصی از سایت هدایت میشوند، اما قسمتی که در همه بخش های سایت وجود دارد و بین همه ان ها مشترک است بخش  header و footer و امکانات ان از جمله سبد خریدو سرچ باکس و dark mode ان است.
+
+2-2. زبان های به کاربرده شده
+در این سایت از زبان های نشانه گزاری html ، css  که برای ساخت پایه و طراحی و دیزاین بهتر به کاربرده شده است. همچنین برای طراحی ریسپانسیو این سایت از css استفاده شده است.
+برای داینامیک کردن سایت که سایت ما را از حالت استاتیک خارج کند از javascript  و jquery استفاده شده است.
+2-3. پلاگین های استفاده شده
+اسلایدر چرخشی به پلاگین‌های معروفی از jQuery گفته می‌شود که به نمایش بهتر محتوای وب‌ سایت کمک می‌کنند. 
+اسلایدر چرخشی در واقع یکی از جذاب‌ترین امکانات jQuery در طراحی سایت است. با رشد تلفن‌های هوشمند و تبلت‌ها، وب‌سایت‌های ریسپانسیو (Responsive) تبدیل به یک نیاز شده‌اند. هم‌چنین وب‌سایت باید برای تجربه‌ی کاربری بهتر بهینه شده باشد. این روزها توسعه‌دهندگان رابط کاربری (UI)، توجه ویژه‌ای به ریسپانسیو بودن و مهم‌تر از آن تجربه‌ی کاربری بهتر دارند.
+چون تجربه کاربری از اهمیت ویژه‌ای برخوردار است، همیشه باید به دنبال پلاگین‌هایی بود که به کاربری وب سایت آسیبی نزند. این پلاگین‌ها معمولا برای ایجاد گالری‌های تصاویر استفاده می‌شوند. همان‌طور که از اسم لاتین این پلاگین‌ها مشخص است، وظیفه‌ی آن‌ها نمایش چرخشی محتوا است. محتوای مورد استفاده، می‌تواند متن یا تصویر باشد. در نتیجه می‌توان از آن‌ها برای نمایش موردی چند عکس، نمایش بنرهای وب‌سایت، پیام‌های رضایت‌مندی مشتریان پیشین و همین‌طور متن‌های مختلف استفاده کرد.
+این پلاگین‌های اسلایدر چرخشی پاسخگو و لمسی (Touch enabled) هستند. در این پلاگین‌ها تعداد بسیاری امکانات و تنظیمات وجود دارد که به شخصی‌سازی بیشتر کمک می‌کند. و جذاب‌ترین نکته این اسلایدرهای چرخشی، رایگان بودن آن‌ها است. 
+ما در این سایت از پلاگین slick که یکی از محبوب ترین امکانات jquery است استفاده کرده ایم.
+اسلایدر چرخشی Slick
+ 
+Slick یک اسلایدر چرخشی دیگر است که در این فهرست قرار دارد. Slick هم مثل Owl carousel امکانات زیادی دارد. در زیر بعضی از این آن‌ها را مشاهده می‌کنید:
+	امکانات
+•	کاملا پاسخگو. این اسلایدر نسبت به المان پدر خود تغییر اندازه می‌دهد
+•	تنظیمات آسانی دارد
+•	استفاده از CC3 با قابلیت پشتیبانی از مرورگرهای قدیمی
+•	امکان خاموش یا روشن کردن امکان کشیدن لمسی
+•	پشتیبانی از کشیدن و رها کردن با موس
+•	چرخه‌ی بی‌نهایت
+•	پشتیبانی از کلیدهای جهت روی کیبورد
+•	امکان اضافه و کم کردن موارد اسلایدر چرخشی و فیلتر کردن آن‌ها
+•	پخش خودکار
+2-4. پلاگین چیست؟
+تو دنیای کامپیوتر، به نرم افزارهایی گفته میشه که تو یک نرم افزار دیگه تحت عنوان نرم افزار میزبان مثله نرم افزارهای آهنگسازی یا همون (daw) اجرا میشن و قابلیت اجرا شدن به تنهایی رو ندارن، مگه اینکه به صورت standalone برنامه نویسی بشن. در کل پلاگین ها قابلیت هایی به نرم افزار میزبان اضافه میکنن و در واقع دلیل وجودشون اضافه کردن آپشن به نرم افزار میزبانه. اكثر نرم افزارهای میزبان خودشون پلاگین هایی تو خودشون دارن، اما کمپانی های مختلف واسه برآورده کردن نیازهای تخصصی تر و یا راحت تر کردن یک عمل، پلاگین خاصی رو طراحی میکنن. پلاگین میتونه یک ساز مجازی باشه، یا یک افکت صدا.
+از اونجایی که گفتیم این پلاگین ها باید در نرم افزارهای میزبان اجرا بشن، در نتیجه باید طبق استاندارد همون نرم افزارها طراحی بشن، پس باید خودشون رو با آنها هماهنگ کنن. به طور کلی چند نوع استاندارد (فرمت) برای پلاگینها وجود داره که میتونن بر اساس اونا طراحی بشن. daw میتونه یک یا چند نوع فرمت را پشتیبانی کنه.
+3. فصل سوم : تصاویری از سایت
+3-1. صفحه اصلی
+
+
+
+
+3-2. صفحه ورود – عضویت – فراموش کردن رمز عبور – کد تائید
+
+3-3. صفحه گالری محصولات
+
+
+
+3-4 . صفحه درباره ما
+3-5. صفحه تماس با ما
+3-6. صفحه 404
+4.  فصل چهارم : توضیح کد ها
+4-1. header
+به ان چیزی که منو و اطلاعات و ... مهم سایت در ان وجود دارد header سایت می گویند.  Header یعنی سر(کله)، و در سایت هم یه جورایی این ها در سر سایت قرار دارند.
+Header سایت ما که در زیر آن را میبینید به صورت ثابت است یعنی اگر سایت را اسکرول کنیم header به صورت ثابت در بالا قرار دارد.
+ 
+سایت دارای بخش های ( لوگو ِ صفحه اصلی بخش زنانه و مردانه گالری و محصولات و همچنین دارای قسمت عضویت ِ سبد خرید ِ سرچ باکس ِ دارک مود که باعث تغییر رنگ صفحه میشود ) دارد.
+Header سایت به صورت رسپانسیو است که دارای همان بخش ها است و به شکل زیر میشود.
+
+
+ <!-- header -->
+    <div class="header-menu">
+        <!-- menu-bg -->
+        <div id="menu-bg" onclick="myFunctionBgMenu(this)">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <!-- logo -->
+        <div class="logo"><h2>لوگو</h2></div>
+        <!-- navbar -->
+        <div class="navbar">
+            <a href="home.html" target="_blank" title="صفحه اصلی" class="active">صفحه اصلی</a>
+            <a href="see-more.html" target="_blank" title="زنانه">زنانه</a>
+            <a href="see-more.html" target="_blank" title="مردانه">مردانه</a>
+            <a href="see-more.html" target="_blank" title="گالری محصولات">گالری محصولات</a>
+            <a href="see-more.html" target="_blank" title="پیشنهاد ما">پیشنهاد ما</a>
+        </div>
+        <!-- menu-user -->
+        <div class="menu-user">
+            <!-- dark-mode -->
+            <div id="theme-toggle">
+                <a href="#" title=""><i class="fa fa-moon-o" id="moon"></i></a>
+                <a href="#" title=""><i class="fa fa-sun-o" id="sun"></i></a>
+            </div>
+            <a href="#" title=""><i class="fa fa-search" id="search"></i></a>
+            <div class="box-search">
+                <div class="box-input">
+                    <input type="text" placeholder="دنبال چی می گردی؟" id="input">
+                    <i class="fa fa-search" id="searchInput" onkeyup="search_animal()"></i>
+                </div>
+        </div>
+            <!-- cart -->
+            <div class="cart">
+                <a href="#" title=""><i class="fa fa-shopping-bag" id="cart"></i></a>
+                <p id="number-cart"><span>0</span></p>
+                <div class="box-cart">mm</div>
+            </div>
+            <a href="login.html" target="_blank" title=""><i class="fa fa-user-circle"></i></a>
+        </div>
+    </div>
+
+برای استایل دهی به کد ها تا به شکل دلخواه تبدیل شوند  استایل های زیر را به کلاس ها و id های و تگ های مربوط به هر کدام را میدهیم
+
+/* header */
+.header-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background-color: #bd1e51;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+.header-menu a{color: #fff; transition: all .5s ease-in;}
+.header-menu a:hover , .header a.active{font-weight: bold;}
+
+/* header  menu-bg*/
+#menu-bg{
+    display: inline-block;
+    cursor: pointer;
+    display: none;
+}
+.bar{
+    width: 35px;
+    height: 4px;
+    background-color: #fff;
+    margin: 6px 0;
+    transition: 0.4s;
+    z-index: 2;
+} 
+.change .bar:nth-child(1){
+    transform: rotate(-45deg) translate(-7px, 5px);
+} 
+.change .bar:nth-child(2){opacity: 0;}
+.change .bar:nth-child(3){
+    transform: rotate(45deg) translate(-9px, -7px);
+}
+
+/*header  navbar */
+.header-menu .navbar a{
+    padding: 0 10px;
+}
+
+/*header  menu-user */
+.header-menu .menu-user {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;   
+}
+.header-menu .menu-user a{
+    padding: 0 10px;
+    font-size: 20px;
+}
+.header-menu .menu-user a:nth-child(1){padding: 0 0 0 10px;}
+
+/*header menu-user  theme-toggle */
+
+#theme-toggle{
+    display: grid;
+    align-content: stretch;
+    justify-items: end;
+    align-items: stretch;
+    height: 30px;
+    min-width: 50px;
+}
+#theme-toggle #sun{
+    display: none;
+    color: #f8bf00;
+}
+
+/* head menu-user search */ 
+.header-menu .menu-user #search{
+    position: relative;
+}
+.box-search{
+    position: absolute;
+    height: 0;
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    top: 60px;
+    left: 0;
+    background:var(--boxsearch);
+    color: var(--boxsearchcolor);
+    overflow-y: hidden;
+    transition: 0.5s;
+    border-radius: 5px;
+    box-shadow: inset 2px 0px 11px 0px #fffb0a;
+}
+.box-search.boxsearch{
+    height: 15%;
+    padding: 20px;
+    z-index: 1;
+    transition: all .5s ease;
+}
+.box-input {
+    margin-bottom: 5%;
+    width: 100%;
+}
+.box-input input{
+    font-family: 'IRANSansWeb';
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: inherit;
+    transition: all .5s ease;
+    position: relative;
+    border-radius: 50px 10px 10px 50px;
+    box-shadow: inset 3px -1px 12px 1px #9f9f9f;
+}
+.box-input #searchInput{
+    position: absolute;
+    left: 20px;
+    background-color: var(--colorTitele);
+    border-radius: 50px;
+    padding: 11px;
+    color: var(--inputborder);
+    z-index: 2;
+    box-shadow: inset 3px -1px 12px 1px #7a43f8;
+}
+
+/* head menu-user cart */ 
+.header-menu .menu-user .cart{
+    position: relative;
+}
+.header-menu .menu-user #number-cart{
+    position: absolute;
+    right: -5px;
+    bottom: 0;
+    padding: 3px 5px 12px 16px;
+    border-radius: 50px;
+    width: 18px;
+    height: 19px;
+    font-size: 10px;
+    background-color:#ffa300 ;
+    color: #fff;
+}
+.box-cart{
+    position: absolute;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 60px;
+    left: 0;
+    background:var(--backgroundBody);
+    color: var(--colorTitele);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.box-cart.boxCart{width: 100%;padding: 60px 20px;}
+.box-cart.boxCarts{z-index: 0; transition: all .5s ease;}
+
+/*items */
+.items{
+    display: flex;
+    border: 3px dotted var(--colorTitele);
+    border-radius: 5px;
+    background: var(--inputborder);
+    justify-content: space-between;
+    padding: 10px 11%;
+    margin: 3% auto;
+}
+.items .items-img-txt img{
+    width: 50%;
+}
+.items .items-img-txt h3{margin-top: -9%;}
+.closebtnItem{display: none;}
+.closeItem{cursor: pointer;}
+
+@media only screen and (max-width: 992px) {
+    .logo{margin-right: 14%;}
+    .header{justify-content: space-between; padding: 15px;}
+    #menu-bg{display: block;}
+    .header-menu .navbar{
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background:var(--backgroundBody);
+        box-shadow: 1px 2px 14px #fd746c;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        text-align:center;
+        display: grid;
+    }
+    .header-menu .navbar a{padding: 0; color: var(--colorTitele);}
+    .header-menu .navbar.MenuResponsiv{width: 77%;}
+    .box-search{width: 40%;}
+    .box-search.boxsearch{height:5%;}
+}
+@media only screen and (max-width: 768px) {
+    .logo{margin-right: 12%;}
+    .box-search{width: 35%;}
+    .box-search.boxsearch{height:8%;}
+}
+@media only screen and (max-width: 600px) {
+    .logo{margin-right: 5%;}
+    .header-menu .menu-user a {
+        padding: 0 10px;
+        font-size: 17px;
+    }
+    .bar {
+        width: 33px;
+        height: 2px;
+    }
+    .change .bar:nth-child(3) {
+        transform: rotate(45deg) translate(-6px, -4px);
+    }
+    .box-search{width: 60%; }
+}
+@media only screen and (max-width: 375px) {
+    .logo{margin-right: 10%;}
+    .header-menu .menu-user{width: 33%;}
+    .box-search{width: 65%;}
+}
+
+
+برای ریسپانسیو کردن سایت از css کمک میگیریم به کمک  تکه کد زیر
+@media only screen and (max-width: 375px) {
+}
+
+استایل ها و تغییرانی که میخواهیم در ان صفحه در ان اندازه به عنوان مثال زمانی که صفحه عرض ان 375 شد تغییر ایجاد شود.
+هنگامی که سایت را برای اندازه موبایل میخواهیم طراحی کنیم باید ان به شکل دیگری طراحی شود تا در اندازه موبایل نمای خوبی داشته باشد. زمانی که header به شگل موباید ظاهر شود header  به شکل زیر است
+
+زمانی که روی سه خط به اصطلاح منو همبرگری کلیک میشود منو به شکل زیر ظاهر میشود.
+طراحی این بخش به کمک کد های  jqueru انجام میشود.
+// header  menu-bg
+function myFunctionBgMenu(x) {
+  var MenuResponsiv = document.querySelector('.navbar')
+  x.classList.toggle("change");
+  MenuResponsiv.classList.toggle("MenuResponsiv");
+  $(".box-cart").addClass("boxCarts");
+}
+
+تابع myFunctionBgMenu را به کلاسی که منو همبرگری در ان است با رویداد click میدهیم تا زمانی که روی ان کلیک شد تابع اجرا شود.
+کلاس navbar  را میگیریم و به ان به کمک classList.toggle کلاس change را که در css تعریف کردیم میدهیم تا زمانی که روی ان منو همبرگری کلیک شد ظاهر منو به ضورت ضبدری شود و به منو هم کلاس  MenuResponsiv را میدهیم تا زمان تغییر منو باز شود. اگر بار اول کلیک شود منو باز شده و اگر مجدد کلیک شود منو بسته خواهد شد.
+بقیه قسمت های header را جلوتر توضیح خواهیم داد
+4-2. footer
+برای طراحی footer سایت از کد های html  زیر استفاده میکنیم تا اسکلت سایت را طراحی کنیم
+
+
+/* footer */
+.footer{
+    margin-top: 2%;
+    text-align: center;
+    background: var(--footer);
+}
+
+/* footer-services-list */
+.footer-services-list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    opacity: .8;
+    background: var(--footerService);
+    padding: 1% 0;
+}
+.footer-list-item , .footer-list-service-right , .footer-list-service-left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-list-item{width: 35%;}
+.footer-list-service-right , .footer-list-service-left{width: 50%;}
+.footer-list-item img{width: 25%;}
+.footer-service-titele-item{
+    line-height: 2;
+    text-align: initial;
+    color: var(--footerServicetextp);
+}
+.footer-service-titele-item p{font-size: 15px; color: var(--footerServicetextp);}
+.footer-service-titele-item span{
+    font-size: 12px;
+    color: var(--footerServicetextp);
+}
+
+@media only screen and (max-width: 1145px){
+    .footer-service-titele-item p{font-size: 13px;}
+}
+@media only screen and (max-width: 1039px){
+    .footer-service-titele-item p{font-size: 12px;}
+}
+@media only screen and (max-width: 977px){
+    .footer-list-service-right , .footer-list-service-left{
+    width: 100%;
+    display: block;
+    text-align: -webkit-center;
+    }
+    .footer-service-titele-item{margin-right: 5%;}
+    .footer-list-item{
+        width: 100%;
+        margin-bottom: 10%;
+        justify-content: initial;
+        padding: 0 35px 0 0;
+    }
+    .footer-service-titele-item p {font-size: 15px;}
+}
+@media only screen and (max-width: 963px){
+    .footer-list-item{padding: 0 30% 0 0;;}
+}
+@media only screen and (max-width: 753px){
+    .footer-list-item{padding: 0 25% 0 0;;}
+}
+@media only screen and (max-width: 520px){
+.footer-list-item {padding: 0 13% 0 0;}
+.footer-list-item img{width: 20%;}
+}
+@media only screen and (max-width: 511px){
+    .footer-list-item{margin-bottom: 18%;}
+}
+@media only screen and (max-width: 507px){
+    .footer-services-list{display: block;}
+    .footer-list-item{
+        margin-bottom: 0;
+        padding: 5%;
+        border-bottom: 1px solid #ddd;
+        justify-content: stretch;
+    }
+}
+
+/* footer-information */
+.footer-information{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 3% 3% 0;
+    flex-direction: row-reverse;
+}
+.footer-right .box-logo i{
+    font-size: 27px;
+}
+.footer-right .box-logo .fa-google{color: cornflowerblue;}
+.footer-right .box-logo .fa-google-play{color: #d74762;}
+.footer-right .box-logo .fa-shopping-bag{color: #4fba22;}
+/* box-guide */
+.box-guide{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: right;
+    width: 33%;
+    align-items: stretch;
+    padding: 3px 2px;
+}
+.box-guide h4{
+    font-size: 18px;
+    color: #bd1e51;
+}
+.box-guide ul li a{
+    color: var(--box-guidep );
+    font-size: 15px;
+}
+.box-guide ul li a:hover{
+    color: var(--box-guidep);
+    text-decoration: none;
+}
+.box-guide ul li{
+    margin-bottom: 10px;
+    color: var(--box-guidep )
+}
+
+/* application */
+.footer-right{
+    width: 58%;
+    padding: 11px 2px;
+    margin-right: 1%;
+}
+
+/* application */
+.application{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.box-app-logo ,  .box-logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+#text-down{
+    font-size: 17px;
+    font-weight: 500;
+    width: 35%;
+}
+#text-down b{
+    color: #bd1e51;
+}
+.box-logo{
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(13 60 95 / 10%);
+    align-items: center;
+    margin-left: 1%;
+    padding: 3px;
+    cursor: pointer;
+}
+.box-app-logo .box-logo:nth-last-child(3){
+    background-color: #40d448;
+}
+.box-app-logo .box-logo:nth-last-child(2){
+    background-color: #000;
+}
+.box-app-logo .box-logo:nth-last-child(1){
+    background-color: #00ADEf;
+}
+.text-box-logo a{
+    font-size: 14px;
+    color: #fff;
+}
+.text-box-logo a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.text-box-logo p{margin-bottom: 2px;}
+.text-box-logo span{
+    font-size: 12px;
+    color: #fff;
+}
+
+/* certificates */
+.certificates{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    width: 100%;
+    margin: 3% auto;
+    flex-direction: row-reverse;
+}
+
+/* contact */
+.contact{
+    width: 45%;
+}
+.box-contact{
+    text-align: center;
+    width: 82%;
+}
+.box-contact p{
+    padding: 7px 13px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    border-radius: 10px;
+    background: #bd1e51;
+    color: #fff;
+    font-size: 15px;
+}
+
+/* footer-ico */
+.footer-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 82%;
+}
+.network a{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-left: 5px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 8px -1px rgb(13 60 95 / 10%);
+    color: var(--network);
+    transition: all 0.5s ease-out;
+}
+.network a:hover:nth-last-child(3){
+    background: linear-gradient(20deg , #f8bf00 , #de1439 , #904ac6);
+    color: #fff;
+}
+.network a:hover:nth-last-child(2){
+    background: linear-gradient(20deg , #1a9bd4 , #35afe5);
+    color: #fff;
+}
+.network a:hover:nth-last-child(1){
+    background: linear-gradient(20deg , #5bf474 , #40d448);
+    color: #fff;
+}
+.network a:hover{transform: rotate(359deg);}
+.phone a{
+    color: var(--network);
+    margin-right: 6px;
+}
+.phone span{
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--network);
+}
+.footer-icon a:hover{
+    text-decoration: none;
+    color: #012fa3;
+}
+
+/* symbol */
+.symbol{ 
+    width: 64%;
+    display: flex;
+    justify-content: space-between;
+}
+.symbol img{width: 100px;}
+
+@media only screen and (max-width: 1287px) {
+    .footer-right{
+        width: 100%;
+        display: block;
+    }
+    .box-guide{width: 100%;}
+    .application{
+        display: block;
+    }
+    #text-down{text-align: center; width: 100%; font-size: 25px;}
+} 
+@media only screen and (max-width: 1305px) {
+    .symbol img {
+        width: 85px;
+    }
+} 
+@media only screen and (max-width: 1189px) {
+    .symbol {
+        width: 49%;
+    }
+    .symbol img {
+        width: 100px;
+    }
+    .footer-information{
+      display: block;
+      flex-wrap: wrap;
+    }
+    .application{
+        display: block;
+    }
+}  
+@media only screen and (max-width: 814px) {
+    .symbol img {
+        width: 87px;
+    }
+} 
+@media only screen and (max-width: 799px) {
+    .certificates{display: flex;}
+    #text-down{text-align: center; width: 100%; font-size: 25px;}
+    .box-app-logo{margin: 3% auto; display: block;}
+    .box-logo{margin: 2% auto; padding: 10px 0}
+    .text-box-logo a {font-size: 14px;}
+    .text-box-logo span {font-size: 12px;}
+    .box-logo img{width: 42px;}
+    .contact{display: block;}
+    .network a {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+        text-align: center;
+        padding-top: 7px;
+    } 
+}
+@media only screen and (max-width: 699px) {
+     .symbol{width: 61%;}
+     .box-contact , .footer-icon{width: 100%;}
+}
+@media only screen and (max-width: 655px) {
+    .certificates{display: block;}
+    .contact ,.symbol{width: 100%;}
+    .symbol{margin: 3% auto; justify-content: space-around;} 
+    .symbol img{width: 100px;}
+}
+@media only screen and (max-width: 437px) {
+ .symbol img{width: 90px;}
+}
+@media only screen and (max-width: 399px) {
+    .symbol img{width: 74px;}
+    .network a {
+        width: 29px;
+        height: 29px;
+        padding-top: 0;
+    } 
+    .box-contact p {padding: 16px 13px;}  
+    .contact{display: block;}
+    .box-contact , .footer-icon{width: 100%;}
+    .footer-icon{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }  
+}
+@media only screen and (max-width: 485px) {
+    .box-guide {
+        width: 100%;
+        display: block;
+        text-align: center;
+        border-top:1px solid rgb(230, 230, 230);
+        padding: 5px 0;
+    }
+    .box-guide  ul li {list-style: none;}
+    .menu-servis{
+        border-top: 1px solid rgb(240, 227, 227);
+        border-bottom: 1px solid rgb(240, 227, 227);
+        padding: 7px 0;
+    }    
+}
+
+
+
+4-3. dark mode
+دارک مود یک امکان برای سایت ها هستش که طبق سلیقه کاربر میتواند سایت را به صورت روشن یا تیره مشاهده کند و استفاده کند. زمانی که روی ایکون ماه زده بشه ایکون خورشید نمایش داده خواهد شد و تم صفحه مشکی میشود و زمانی که روی ایکون خورشید کلیک شود ایکون ماه نمایش داده خواهد شد و تم سایت سفید میشود. و در زمانی که کاربر سایت را ترک کند یا رفرش کند سایت در همان تم که انتخاب کرده بود در سرور ذخیره میشود و در همان تم می ماند.
+ابتدا کد html ان را می نویسیم
+<!-- dark-mode -->
+            <div id="theme-toggle">
+                <a href="#" title=""><i class="fa fa-moon-o" id="moon"></i></a>
+                <a href="#" title=""><i class="fa fa-sun-o" id="sun"></i></a>
+            </div>
+
+بعد به ان استایل میدهیم .
+/*header menu-user  theme-toggle */
+
+#theme-toggle{
+    display: grid;
+    align-content: stretch;
+    justify-items: end;
+    align-items: stretch;
+    height: 30px;
+    min-width: 50px;
+}
+#theme-toggle #sun{
+    display: none;
+    color: #f8bf00;
+}
+ 
+حال یک سند دیگر به نام darkmod.css تعریف کرده و رنگ هایی که در تم روشن و تیره لازم داریم را به body میدهیم.
+body {
+    --backgroundBody: #fff;
+    --colorTitele: #1b1dbd; 
+    --cadrText: #333; 
+    --footer: linear-gradient(333.67deg,#f6f8fb 68%,#ebedf0 113.46%);
+    --footerService : #eef1f4;
+    --footerServicetextp : #383838;
+    --box-guidep : #0e1935;
+    --network: #0e1935;
+    --backgroundLogin : #e9e9e9;
+    --backgroundLoginshadw : #ddd;
+
+    --backgroundbox : #fff;
+
+    --inputbackground: #fafaf0;
+    --inputborder: #dfe1e8;
+
+    --boxsearch : #ffa300;
+    --boxsearchcolor : #fff;
+}
+body.dark {
+    --backgroundBody: #333333;
+    --colorTitele: #ddddff; 
+    --cadrText: #f1ebeb; 
+    --footer:linear-gradient(333.67deg,#2e2e2e 68%,#0d1c34 113.46%);
+    --footerService : #282526;
+    --footerServicetextp : #fff;
+    --box-guidep : #fff;
+    --network: #d1cbcb;
+    --backgroundLogin : #363636;
+    --backgroundLoginshadw : #4a4949;
+
+    --backgroundbox : #404040;
+
+    --inputbackground: #363632;
+    --inputborder: #73757a;
+
+    --boxsearch : #1b1dbd;
+    --boxsearchcolor : #fff;
+}
+
+زمانی که ایکون ها تعییر کنند کلاس dark به body داده میشود و تم با توجه به رنگ ها تغییر میکند.
+حال به سراغ کد های js ان می رویم.
+var darkMode = false;
+
+$("#moon").click(function(){
+  $("#sun").fadeIn(500);
+  $("#moon").fadeOut(500);
+});
+$("#sun").click(function(){
+  $("#moon").fadeIn(500);
+  $("#sun").fadeOut(500);
+});
+
+// default to system setting
+if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+  darkMode = true;
+}
+// preference from localStorage should overwrite
+if (localStorage.getItem('theme') === 'dark') {
+  darkMode = true;
+} else if (localStorage.getItem('theme') === 'light') {
+  darkMode = false;
+}
+if (darkMode) {
+  document.body.classList.toggle('dark');
+}
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('theme-toggle').addEventListener('click', () => {
+  document.body.classList.toggle('dark');
+  localStorage.setItem('theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+});
+
+در کد بالا در قسمت اول باعث تغییر ایکون ها میشوند.  بعد به کمک چند شرط که با if() مینویسیم میگوییم اگر teme ما در حافظه کاربر dark بود تم dark شود اگر نبود else if() و تم light بود darkMode را false  کن و کلاس تم را همان light قرار بده بعد میگوییم زمانی که روی ان ایکون ها کلیک شد کلاس dark را به body بده و اگر نبود light کن.
+4-4. سبد خرید
+سبد خرید قسمت مهمی برای هر سایت فروشگاهی است که کاربران با کلیک روی یک دکمه میتوانند محصول مد نظر را به سبد خرید خود اضافه کنند .
+
+<!-- cart -->
+            <div class="cart">
+                <a href="#" title=""><i class="fa fa-shopping-bag" id="cart"></i></a>
+                <p id="number-cart"><span>0</span></p>
+                <div class="box-cart"></div>
+            </div>
+
+ابتدا کد html  ان را مینویسیم که شامل یک ایکون سبد خرید و یک box که محصولان به ان اضافه میشوند و یک قسمت هم برای شمارنده ی تعدادکالاها در سبد خرید است.
+به هر کدام از ان ها استایل میدهیم.
+
+/* head menu-user cart */ 
+.header-menu .menu-user .cart{
+    position: relative;
+}
+.header-menu .menu-user #number-cart{
+    position: absolute;
+    right: -5px;
+    bottom: 0;
+    padding: 3px 5px 12px 16px;
+    border-radius: 50px;
+    width: 18px;
+    height: 19px;
+    font-size: 10px;
+    background-color:#ffa300 ;
+    color: #fff;
+}
+.box-cart{
+    position: absolute;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 60px;
+    left: 0;
+    background:var(--backgroundBody);
+    color: var(--colorTitele);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.box-cart.boxCart{width: 100%;padding: 60px 20px;}
+.box-cart.boxCarts{z-index: 0; transition: all .5s ease;}
+ حال سراغ کد های js میرویم تا به صورت داینامیک کار کند. 
+ابتدا دکمه هایی برای هر محصول طراحی میکنیم که با زدن بر روی ان محصول به سبد اضافه شود.
+ <div class="cadr-btn-shup">
+                <button type="submit">افزودن به سبد خرید <span><i class="fa fa-shopping-bag"></i></span></button>
+            </div>
+
+برای باز شدن box سبد خرید کد زیر را می نویسیم که هر زمان کاربر روی ایکون سبد خرید کلیک کرد box سبد خرید باز و بسته شود.
+ $("#cart").click(function(){
+      $(".box-cart").toggleClass("boxCart");
+  });
+
+اکنون کدی را مینویسیم که با زدن کاربر روی دکمه کالا به سبد خرید اضافه شود و در قسمت شمارنده یکی به ان اضافه شود و با زدن روی ایکون ضبدر محصول حذف شده و یکی از شمارنده کم شود.
+
+$("body").on('click', '.cadr-btn-shup', function(){
+  var newItemImg = $(this).parents(".cadr-product").find(".cadr-img").find("img").attr("src");
+  var getItem = $(this).parents(".cadr-product").find("#cadr-Price").text();
+  // var closebtnItem = document.getElementById("closebtnItem").innerHTML = "&times;";
+  var closebtnItem = "&times;";
+
+  var newItem = '<div class="items"><div class="items-img-txt"><img src ="'+newItemImg+'"><h3>'+getItem+'</h3></div><h2 class="closeItem">'+closebtnItem+'</h2></div>';
+  $(".box-cart").append(newItem);
+
+// ---------close item -----------
+var lengthsItem = $(".items").length;
+var lengthItem = $("#number-cart ").text();
+
+$("body").on('click', '.closeItem', function() {
+  var itemsClose = $(this).parents(".items").hide(); //hide item
+  //muines item cart span
+  var newIengthItem = --lengthItem;
+  $("#number-cart").text(newIengthItem);
+
+})
+
+});
+ 
+در قسمت اول به دنبال عکس و قیمت کالا مد نظر به کمک find() که این تابع به معنی یافتن است میگردیم و میگوییم برو از فلان کلاس ان کلاس مد نظر را بیاب و عکس یا متن ان را جستوجو کن و در داخل متغییری بریز. بعد یک متغییر تعریف میکنیم که یک کلاس دارد و ان عکس و قیمت و یک ایکون ضبدر برای حذف به ان میدهیم .
+بعد این عکس و قیمت را در داخل ان میگذاریم و ان box کلی را به داخل box سبد خرید append ( اضافه ) میکنیم.
+و با هر بار اضافه شدن محصول یا حذف شدن محصول از سبد خرید از شمارنده محصول که به ان ایدی number-cart داده ایم را مقدارش را کم و زیاد میکنیم.
+4-5. searck box
+این قسمت برای جستوجو محصولات است. که حالت نمایش ان مانند سبد خرید است . کد های ان را در زیر مشاهده میکنید.
+
+<a href="#" title=""><i class="fa fa-search" id="search"></i></a>
+            <div class="box-search">
+                <div class="box-input">
+                    <input type="text" placeholder="دنبال چی می گردی؟" id="input">
+                    <i class="fa fa-search" id="searchInput" onkeyup="search_animal()"></i>
+                </div>
+        </div>
+استایل دهی به کد ها
+
+/* head menu-user search */ 
+.header-menu .menu-user #search{
+    position: relative;
+}
+.box-search{
+    position: absolute;
+    height: 0;
+    width: 25%;
+    position: fixed;
+    z-index: 1;
+    top: 60px;
+    left: 0;
+    background:var(--boxsearch);
+    color: var(--boxsearchcolor);
+    overflow-y: hidden;
+    transition: 0.5s;
+    border-radius: 5px;
+    box-shadow: inset 2px 0px 11px 0px #fffb0a;
+}
+.box-search.boxsearch{
+    height: 15%;
+    padding: 20px;
+    z-index: 1;
+    transition: all .5s ease;
+}
+.box-input {
+    margin-bottom: 5%;
+    width: 100%;
+}
+.box-input input{
+    font-family: 'IRANSansWeb';
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: inherit;
+    transition: all .5s ease;
+    position: relative;
+    border-radius: 50px 10px 10px 50px;
+    box-shadow: inset 3px -1px 12px 1px #9f9f9f;
+}
+.box-input #searchInput{
+    position: absolute;
+    left: 20px;
+    background-color: var(--colorTitele);
+    border-radius: 50px;
+    padding: 11px;
+    color: var(--inputborder);
+    z-index: 2;
+    box-shadow: inset 3px -1px 12px 1px #7a43f8;
+}
+
+کد js برای باز و بسته شدن فرم سرچ
+ $("#search").click(function(){
+      $(".box-search").toggleClass("boxsearch");
+  });
+
+4-6. اسلایدر ها
+ما در طراحی این سایت برای اسلایدر ها از پلاگین slick  که در بالا توضیح داده شد استفاده کردیم. که برای نمایش اسلایدر ها به شکل های مختلف می توان استقاده کرد ما از slider  در قسمت اول سایت که به عنوان بنر سایت است و در قسمت (پرفروش ترین ها و جدید ترین ها و محصولات تخفیف دار) استفاده شده است.
+قسمت های اصلی این سایت به صورت پیش فرض نوشته شده است و ما با تغییرات در ان میتوان ان ها را شخصی سازی کنیم.
+
+$(document).ready(function(){
+// slider-main
+$('.sliderMain').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3500,
+        rtl:true,
+        dots: false, 
+        arrows:false,
+});  
+
+// part-box-slider-shoe
+$('.part-box-slider-shoe').slick({
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3500,
+        rtl:true,
+        dots: false, 
+        arrows:false,
+        //   options
+        responsive: [ 
+            { breakpoint: 1177, 
+                settings: { slidesToShow: 3, slidesToScroll: 3, infinite: true, dots: false, arrows:false }
+            },
+            { breakpoint: 838, 
+                settings: { slidesToShow: 2, slidesToScroll: 2, infinite: true, dots: false, arrows:false }
+            },
+            { breakpoint: 429, 
+                settings: { slidesToShow: 1, slidesToScroll: 1, infinite: true, dots: false, arrows:false }
+            },
+        ]
+    });   
+    
+});
+
+با دادن کلاس یا ایدی مدنظر به این کد ها میتوان آن ها را یه صورت اسلایدی دراوورد. 
+slidesToShow
+این قسمت تعداد عکس یا کادر هایی که می خواهیم در یک اسلاید نمایش دهد را میگوییم
+slidesToScroll: 1,
+در این قسمت میگوییم اگر چند عکس در یک اسلاید باشد چند تا چند تا به بعدی حرکت کند.
+autoplaySpeed: 3500,
+زمان برای حرکت و رفتن به اسلاید بعد را تعیین میکند
+responsive: [ 
+            { breakpoint: 1177, 
+                settings: { slidesToShow: 3, slidesToScroll: 3, infinite: true, dots: false, arrows:false } }
+این قسمت برای ریسپانسیو کردن اسلایدر ها است که در هر اندازه چه تعداد اسلایدر باشد
+4-7. صفحه اصلی
+در این قسمت که صفحه اول سایت است دارای بخش های زیر است
+محصولات پرفروش - جدیدترین محصولات - محصولات تخفیف دار - پیشنهاد ما برای شما - دسته بندی محصولات
+که سه قسمت اول به صورت اسلایدر هستند و یک سری کادر  وجود دارد که کد های ان را همراه با استایل ان ها در زیر مشاهده میکنیم.
+<div class="cadr-product">
+            <div class="cadr-img"><img src="img/Picture1.png" id="imgs-product" alt="درحال بارگذاری" srcset=""></div>
+            <div class="cadr-text">
+                <p>این سایت ، یک سایت فروشگاهی است، برای درس پروژه پایانی ، دانشگاه پیام نور شهریار</p>
+            </div>
+            <div id="cadr-Price">250,000 <span>تومان</span></div>
+            <div class="cadr-btn-shup">
+                <button type="submit">افزودن به سبد خرید <span><i class="fa fa-shopping-bag"></i></span></button>
+            </div>
+        </div>
+
+
+/* cadr-product */
+.part-box-slider-shoe .slick-slide div{width: 90%; margin: 3% auto;}
+.cadr-product{
+    margin: 5px;
+    padding: 5%;
+    cursor: pointer;
+    transition: all .5s ease;
+    box-shadow: 0px 1px 5px 1px #fae2e2;
+    border-radius: 10px 50px 10px 50px;
+}
+.cadr-product:hover{
+    box-shadow: 0px 1px 5px 1px #f8cdcc;
+}
+.cadr-product:hover img{
+    padding: 4%;
+    transition: all .5s ease;
+    transform: rotate(-20deg);
+}
+.cadr-text p{
+    line-height: 1.5;
+    margin: 5% auto;
+    font-size: 14px;
+    text-align: right;
+    color: var(--cadrText);
+}
+.cadr-btn-shup button{
+    background: #bd1e51;
+    color: #fff;
+    transition: all .5s ease;
+    box-shadow: inset 1px 5px 10px #d8255e;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 3px 10px; 
+    font-family: 'IRANSansWeb';
+    width: 100%;
+    border-radius: 5px 20px 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cadr-btn-shup button:hover{
+    background-color: #e14f4f;
+    box-shadow: inset 2px 6px 11px #f25050;   
+    transition: all .5s ease;
+}
+.cadr-btn-shup button span{
+    display: none;
+    padding-right: 5px;
+    transition: all .5s ease;
+}
+.cadr-btn-shup button:hover span{
+    display: flex;
+    transition: all .5s ease;
+}
+#cadr-Price{
+    font-size: 14px;
+    transition: all .5s ease-in;
+    margin-bottom: 5%;
+    font-weight: bold;
+    color: var(--colorTitele);
+}
+
+
+4-8. عضویت و ورود
+در این بخش که برای عضویت و ورود کاربر به سایت طراحی شده است دارای بخش های زیر است.
+ورود- عضویت - فراموش کردن رمز عبور - کد تائید
+که ما به توضیح قسمت ورود سایت می پردازیم و کد ها را توضیح میدهیم.
+ابتدا کد های html و css را مینویسیم. این قسمت دارای بخش های وارد کردن (ایمیل و پسوورد و فراموش کردن رمزعبور و مرا به خاطر بسپار) است.
+
+   <!-- box-login -->
+    <div class="box-login">
+       <div class="header-box">
+         <p>ورود</p>
+        </div>
+       <div class="box-form">
+         <form action="#" name="formEmail">
+          <input type="email" id="inputEmail" name="email" placeholder="ایمیل یا نام کاربری خود را وارد کنید" onkeyup="userEmail()"><br>
+            <span id="spanErrorEmail"></span>
+         </form>
+         <br>
+         <form action="#" name="formPasword">
+            <input type="password" id="inputPasword" name="pasword" placeholder="پسوورد خود را وارد کنید"  onkeyup="userPasword()"> <br>
+            <span id="spanErrorPasword"></span>
+         </form>
+       </div>
+
+       <div class="box-footer">
+  
+        <div class="forgatPassword">
+          <form action="">
+            <input type="checkbox" id="checkbox">
+            <label for="">مرا به خاطر بسپار</label>
+          </form>
+          <h1><a href="forgot-password.html">گذرواژه خود را فراموش کده اید؟؟</a></h1>
+        </div>
+  
+         <form action="home.html" onsubmit="loginButton(event)">
+          <button id="box-footer-button" type="submit"><a href="">ورود</a></button>
+         </form>
+
+         <h1>  اگر  عضو نشده اید <a href="submit.html">ثبت نام</a> کنید</h1>
+       </div>
+    </div>
+
+کد های css:
+main{display: flex;}
+/* box-login   box-submit*/
+.box-login , .box-submit , .forgat-box{
+    background-color: var(--backgroundLogin);
+    box-shadow: -2px -1px 10px 5px var(--backgroundLoginshadw);
+    width: 50%;
+    margin: 8% auto;
+    padding: 10px;
+}
+.box-login a , .box-submit a , .forgat-box a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.box-footer h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: var(--colorTitele);
+}
+.box-footer h1 a{
+    color: #ff2b75;
+}
+
+/* header-box */
+.header-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 5% 5%;
+}
+
+.box-form , .box-footer{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.header-box p{
+    font-size: 30px;
+    color: var(--cadrText);
+    font-weight: 700;
+}
+
+/* box-form */
+.box-form form input{
+    width: 90%;
+    margin-bottom: 2%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ffeb3b;
+    transition: all 0.2s ease-out;
+    outline: none;
+    font-family: 'IRANSansWeb';
+}
+.box-form form input:hover{
+    border: 2px solid #85c441;
+}
+.box-form span{
+    font-size: 13px;
+    color: #ff2b75;
+}
+.box-footer #box-footer-button{
+    font-family: 'IRANSansWeb';
+    margin-bottom: 5%;
+    width: 65%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: #bd1e51;
+    transition: all .5s ease;
+    box-shadow: inset 1px 5px 10px #d8255e;
+    cursor: pointer;
+    font-size: 20px;
+    color: #323232;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+}
+.box-footer #box-footer-button:hover{
+    background-color: #e14f4f;
+    box-shadow: inset 2px 6px 11px #f25050;   
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.forgatPassword h1 a{
+    color: #6466eb;
+    font-size: 14px;
+    border-bottom: 1px dashed;
+}
+
+.forgatPassword{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5%;
+}
+.forgatPassword form label , .forgatPassword form input[tbody= "checkbox"]{
+    color: #6466eb;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+    .forgatPassword{display: block;}
+    .forgatPassword h1 a{
+        margin-top: 8%;
+    }
+    .box-form form input{width: 100%;}
+    .box-login , .box-submit , .forgat-box{
+        margin-top: 19%;
+        width: 90%;
+    }
+}
+
+حال به سراغ کد های js برای اعتبار سنجی فرم ها میرویم.
+
+var inputEmail = document.getElementById("inputEmail");
+var spanErrorEmail = document.getElementById("spanErrorEmail");
+
+var inputPasword = document.getElementById("inputPasword");
+var spanErrorPasword = document.getElementById("spanErrorPasword");
+
+var inputText = document.getElementById("inputText");
+var spanErrorText = document.getElementById("spanErrorText");
+
+var checkbox = document.getElementById("checkbox");
+
+function userEmail() {
+  if (inputEmail.value.length < 8) {
+    spanErrorEmail.innerHTML = "حداقل کارکتر مدنظر 8 تا";
+  }
+  else{
+    spanErrorEmail.innerHTML = "";
+  }
+}
+function userPasword() {
+  if (inputPasword.value.length < 6) {
+    spanErrorPasword.innerHTML = "حداقل کارکتر مدنظر 6 تا";
+  }
+  else{
+    spanErrorPasword.innerHTML = "";
+  }
+}
+function userText() {
+  if (inputText.value.length < 4) {
+    spanErrorText.innerHTML = "حداقل کارکتر مدنظر4 تا";
+  }  else if(inputText.value.length > 4) {
+    spanErrorText.innerHTML = "حداقل کارکتر مدنظر4 تا";
+  } 
+  else{
+    spanErrorText.innerHTML = "";
+  }
+}
+
+function loginButtonTorget(event) {
+    if (inputEmail.value == null || inputEmail.value == "" || 
+     inputPasword.value== null || inputPasword.value == "" || 
+     inputText.value==null || inputText.value==""){
+        alert("فیلدها  نباید خالی باشد");
+        event.preventDefault();
+      }
+       else{
+        form.style.action = "login.html";
+      }
+}
+function loginButton(event) {
+    if (inputEmail.value == null || inputEmail.value == ""){
+        alert("فیلد نباید خالی باشد");
+        event.preventDefault();
+      }
+       else{
+        form.style.action = "taeide-pasword.html";
+      }
+}
+function loginButtonTaeid(event) {
+    if (inputText.value == null || inputText.value == ""){
+        alert("فیلد نباید خالی باشد");
+        event.preventDefault();
+      }
+       else{
+        form.style.action = "home.html";
+      }
+}
+
+
+ابتدا مقدار های داخل هر input که به ان ها value گفته میشود را دریافت میکنیم بعد ان ها را به کمک شرط if چک میکنیم که اگر خالی یا null بودند یک alert بدهد(اخطار) که فرم ها نباید خالی باشد و لینک  به کمک .preventDefault(); غیر فعال شود و اگر خالی یا null نبود به دکمه ها لینک صفحه مد نظر را میدهیم تا وارد شود.
+همچنین در هر قسمت میگوییم که اگر طول کاراکتر هایی که در input وارد میکند کمتر از 8 تا باشد خطا بدهد که و در داخل span مد نظر خطا “ طول کاراکتر نباید از 8 تا کمتر باشد”  را بدهد.
+
+
+4-9. درباره ما
+این قسمت اطلاعاتی درباره سایت و ... به کاربران میدهد
+
+4-10. تماس با ما
+راه هایی که کاربران میتوانند با ان با فروشگاه ارتباط برقرار کنند.
+
+
+4-11. گالری محصولات
+نتیجه گیری
+امروزه بسیاری از افراد به دلیل راحتی و صرف هزینه و زمان بسیار کمتر، خرید اینترنتی یا خرید آنلاین را انتخاب می‌کنند. خرید از فروشگاه‌های آفلاین حتما به وجود دو شخص وابسته است و به مهارت فردی، بستگی دارد. اما در مقابل، در خرید آنلاین فقط یک شخص باید وارد اینترنت شود، به وب‌سایت فروشگاه مورد نیاز خود رفته و کالای مورد نظرش را انتخاب کند و بتواند تمامی اطلاعات محصولات را ببیند و با هم مقایسه کند.
+از فواید خرید اینترنتی این است که این کالاها در یک سبد خرید مجازی نگهداری می‌شوند تا هر زمان که مشتری آماده خرید شود. خریدار می‌تواند در حین اینکه خرید آنلاین خود را انجام می‌دهد به کارهای روزمره خود نیز رسیدگی کند و پرداخت را در پایان روز انجام دهد.
+کتاب، پوشاک، لوازم‌خانگی، اسباب‌بازی، سخت‌افزار، نرم‌افزار و بیمه‌درمانی فقط برخی از صدها کالایی است که مصرف‌کنندگان می‌توانند فروشگاه های آنلاین تهیه کنند.
+بعد از ثبت نهایی خرید آنلاین می‌توان از انواع روش‌های حمل‌و‌نقل موجود در سایت استفاده کرد. به طور مثال می‌توان زمان تحویل کالا را مشخص کرد و از طریق پیک و یا پست کالا را درب منزل تحویل گرفت. در برخی سایت‌ها حتی نیاز به پرداخت اینترنتی خرید آنلاین نخواهد بود و هزینه‌ی کالا در زمان تحویل، پرداخت می‌شود.
+ 
+منابع
+	ویکی پدیا
+	سون لرن
+	فرادرس
+	یتویوب
+	W3schools
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
