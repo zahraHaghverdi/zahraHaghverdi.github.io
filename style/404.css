@@ -1,0 +1,25 @@
+main{
+    display: block;
+    text-align: center;
+    margin: 3% auto;
+}
+.btn-back{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(255, 254, 254);
+    border: none;
+    outline: none;
+    border: 2px solid rgb(94, 248, 74);
+    border-radius: 10px;
+}
+.btn-back a{
+    color: #3d3c3c;
+    font-size: 14px;
+}
+.btn-back a:hover{
+    text-decoration: none;
+    background-color: aliceblue;
+}
+.btn-back:hover{
+    background-color: aliceblue;
+}

@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link href="style/header-footer.css" rel="stylesheet">
+    <link href="style/see-more.css" rel="stylesheet">  
+    <link href="style/home.css" rel="stylesheet">  
+    <link rel="stylesheet" href="style/darkMode.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="slick-1.8.1/slick/slick-theme.css">
+    
+</head>
+<body>
+
+    <!-- header -->
+    <div class="header-menu">
+        <!-- menu-bg -->
+        <div id="menu-bg" onclick="myFunctionBgMenu(this)">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <!-- logo -->
+        <div class="logo"><h2>لوگو</h2></div>
+        <!-- navbar -->
+        <div class="navbar">
+            <a href="home.html" target="_blank" title="صفحه اصلی" class="active">صفحه اصلی</a>
+            <a href="see-more.html" target="_blank" title="زنانه">زنانه</a>
+            <a href="see-more.html" target="_blank" title="مردانه">مردانه</a>
+            <a href="see-more.html" target="_blank" title="گالری محصولات">گالری محصولات</a>
+            <a href="see-more.html" target="_blank" title="پیشنهاد ما">پیشنهاد ما</a>
+        </div>
+        <!-- menu-user -->
+        <div class="menu-user">
+            <!-- dark-mode -->
+            <div id="theme-toggle">
+                <a href="#" title=""><i class="fa fa-moon-o" id="moon"></i></a>
+                <a href="#" title=""><i class="fa fa-sun-o" id="sun"></i></a>
+            </div>
+            <a href="#" title=""><i class="fa fa-search" id="search"></i></a>
+            <div class="box-search">
+                <div class="box-input">
+                    <input type="text" placeholder="دنبال چی می گردی؟" id="input">
+                    <i class="fa fa-search" id="searchInput" onkeyup="search_animal()"></i>
+                </div>
+        </div>
+            <!-- cart -->
+            <div class="cart">
+                <a href="#" title=""><i class="fa fa-shopping-bag" id="cart"></i></a>
+                <p id="number-cart"><span>0</span></p>
+                <div class="box-cart"></div>
+            </div>
+            <a href="login.html" target="_blank" title=""><i class="fa fa-user-circle"></i></a>
+        </div>
+    </div>
+
+
+<!-- main -->
+<div class="main">
+    <div class="fillter-product">
+        <div id="myBtnContainer">
+            <h2>فیلتر محصولات</h2>
+            <button class="btn active" onclick="filterSelection('all')"> همه محصولات</button>
+            <button class="btn" onclick="filterSelection('woman')"> زنانه</button>
+            <button class="btn" onclick="filterSelection('man')"> مردانه</button>
+            <button class="btn" onclick="filterSelection('nws')"> جدید ترین ها</button>
+            <button class="btn" onclick="filterSelection('Bestsellers')"> پرفروش ترین ها</button>
+            <button class="btn" onclick="filterSelection('Proposal')"> پیشنهادهای ما</button>
+        </div>
+    
+        <div class="container">
+            <div class="filterDiv woman nws">
+                <div class="cadr-product">
+                    <div class="cadr-img"><img src="img/new1.png" id="imgs-product" alt="درحال بارگذاری" srcset=""></div>
+                    <div class="cadr-text">
+                        <p>این سایت ، یک سایت فروشگاهی است، برای درس پروژه پایانی ، دانشگاه پیام نور شهریار</p>
+                    </div>
+                    <div id="cadr-Price">250,000 <span>تومان</span></div>
+                    <div class="cadr-btn-shup">
+                        <button type="submit">افزودن به سبد خرید <span><i class="fa fa-shopping-bag"></i></span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="filterDiv man nws">
+                <div class="cadr-product">
+                    <div class="cadr-img"><img src="img/Picture2.png" id="imgs-product" alt="درحال بارگذاری" srcset=""></div>
+                    <div class="cadr-text">
+                        <p>این سایت ، یک سایت فروشگاهی است، برای درس پروژه پایانی ، دانشگاه پیام نور شهریار</p>
+                    </div>
+                    <div id="cadr-Price">250,000 <span>تومان</span></div>
+                    <div class="cadr-btn-shup">
+                        <button type="submit">افزودن به سبد خرید <span><i class="fa fa-shopping-bag"></i></span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="filterDiv man Bestsellers Proposal">
+                <div class="cadr-product">
+                    <div class="cadr-img"><img src="img/Picture3.png" id="imgs-product" alt="درحال بارگذاری" srcset=""></div>
+                    <div class="cadr-text">
+                        <p>این سایت ، یک سایت فروشگاهی است، برای درس پروژه پایانی ، دانشگاه پیام نور شهریار</p>
+                    </div>
+                    <div id="cadr-Price">250,000 <span>تومان</span></div>
+                    <div class="cadr-btn-shup">
+                        <button type="submit">افزودن به سبد خرید <span><i class="fa fa-shopping-bag"></i></span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="filterDiv woman Proposal">
+                <div class="cadr-product">
+                    <div class="cadr-img"><img src="img/woman1.png" id="imgs-product" alt="درحال بارگذاری" srcset=""></div>
+                    <div class="cadr-text">
+                        <p>این سایت ، یک سایت فروشگاهی است، برای درس پروژه پایانی ، دانشگاه پیام نور شهریار</p>
+                    </div>
+                    <div id="cadr-Price">250,000 <span>تومان</span></div>
+                    <div class="cadr-btn-shup">
+                        <button type="submit">افزودن به سبد خرید <span><i class="fa fa-shopping-bag"></i></span></button>
+                    </div>
+                </div>
+            </div>  
+            <div class="filterDiv man ">
+                <div class="cadr-product">
+                    <div class="cadr-img"><img src="img/Picture4.png" id="imgs-product" alt="درحال بارگذاری" srcset=""></div>
+                    <div class="cadr-text">
+                        <p>این سایت ، یک سایت فروشگاهی است، برای درس پروژه پایانی ، دانشگاه پیام نور شهریار</p>
+                    </div>
+                    <div id="cadr-Price">250,000 <span>تومان</span></div>
+                    <div class="cadr-btn-shup">
+                        <button type="submit">افزودن به سبد خرید <span><i class="fa fa-shopping-bag"></i></span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="filterDiv nws"> 
+                <div class="cadr-product">
+                    <div class="cadr-img"><img src="img/new2.png" id="imgs-product" alt="درحال بارگذاری" srcset=""></div>
+                    <div class="cadr-text">
+                        <p>این سایت ، یک سایت فروشگاهی است، برای درس پروژه پایانی ، دانشگاه پیام نور شهریار</p>
+                    </div>
+                    <div id="cadr-Price">250,000 <span>تومان</span></div>
+                    <div class="cadr-btn-shup">
+                        <button type="submit">افزودن به سبد خرید <span><i class="fa fa-shopping-bag"></i></span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="filterDiv nws Bestsellers">
+                <div class="cadr-product">
+                    <div class="cadr-img"><img src="img/P1.png" id="imgs-product" alt="درحال بارگذاری" srcset=""></div>
+                    <div class="cadr-text">
+                        <p>این سایت ، یک سایت فروشگاهی است، برای درس پروژه پایانی ، دانشگاه پیام نور شهریار</p>
+                    </div>
+                    <div id="cadr-Price">250,000 <span>تومان</span></div>
+                    <div class="cadr-btn-shup">
+                        <button type="submit">افزودن به سبد خرید <span><i class="fa fa-shopping-bag"></i></span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="filterDiv Proposal">
+                <div class="cadr-product">
+                    <div class="cadr-img"><img src="img/P2.png" id="imgs-product" alt="درحال بارگذاری" srcset=""></div>
+                    <div class="cadr-text">
+                        <p>این سایت ، یک سایت فروشگاهی است، برای درس پروژه پایانی ، دانشگاه پیام نور شهریار</p>
+                    </div>
+                    <div id="cadr-Price">250,000 <span>تومان</span></div>
+                    <div class="cadr-btn-shup">
+                        <button type="submit">افزودن به سبد خرید <span><i class="fa fa-shopping-bag"></i></span></button>
+                    </div>
+                </div>
+            </div> 
+            <div class="filterDiv woman">
+                <div class="cadr-product">
+                    <div class="cadr-img"><img src="img/woman2.png" id="imgs-product" alt="درحال بارگذاری" srcset=""></div>
+                    <div class="cadr-text">
+                        <p>این سایت ، یک سایت فروشگاهی است، برای درس پروژه پایانی ، دانشگاه پیام نور شهریار</p>
+                    </div>
+                    <div id="cadr-Price">250,000 <span>تومان</span></div>
+                    <div class="cadr-btn-shup">
+                        <button type="submit">افزودن به سبد خرید <span><i class="fa fa-shopping-bag"></i></span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="filterDiv Bestsellers Proposal">
+                <div class="cadr-product">
+                    <div class="cadr-img"><img src="img/Picture1.png" id="imgs-product" alt="درحال بارگذاری" srcset=""></div>
+                    <div class="cadr-text">
+                        <p>این سایت ، یک سایت فروشگاهی است، برای درس پروژه پایانی ، دانشگاه پیام نور شهریار</p>
+                    </div>
+                    <div id="cadr-Price">250,000 <span>تومان</span></div>
+                    <div class="cadr-btn-shup">
+                        <button type="submit">افزودن به سبد خرید <span><i class="fa fa-shopping-bag"></i></span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="filterDiv man">
+                <div class="cadr-product">
+                    <div class="cadr-img"><img src="img/man2.jpg" id="imgs-product" alt="درحال بارگذاری" srcset=""></div>
+                    <div class="cadr-text">
+                        <p>این سایت ، یک سایت فروشگاهی است، برای درس پروژه پایانی ، دانشگاه پیام نور شهریار</p>
+                    </div>
+                    <div id="cadr-Price">250,000 <span>تومان</span></div>
+                    <div class="cadr-btn-shup">
+                        <button type="submit">افزودن به سبد خرید <span><i class="fa fa-shopping-bag"></i></span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="filterDiv man Proposal">
+                <div class="cadr-product">
+                    <div class="cadr-img"><img src="img/Picture4.png" id="imgs-product" alt="درحال بارگذاری" srcset=""></div>
+                    <div class="cadr-text">
+                        <p>این سایت ، یک سایت فروشگاهی است، برای درس پروژه پایانی ، دانشگاه پیام نور شهریار</p>
+                    </div>
+                    <div id="cadr-Price">250,000 <span>تومان</span></div>
+                    <div class="cadr-btn-shup">
+                        <button type="submit">افزودن به سبد خرید <span><i class="fa fa-shopping-bag"></i></span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="filterDiv Proposal">
+                <div class="cadr-product">
+                    <div class="cadr-img"><img src="img/Picture6.png" id="imgs-product" alt="درحال بارگذاری" srcset=""></div>
+                    <div class="cadr-text">
+                        <p>این سایت ، یک سایت فروشگاهی است، برای درس پروژه پایانی ، دانشگاه پیام نور شهریار</p>
+                    </div>
+                    <div id="cadr-Price">250,000 <span>تومان</span></div>
+                    <div class="cadr-btn-shup">
+                        <button type="submit">افزودن به سبد خرید <span><i class="fa fa-shopping-bag"></i></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!-- footer -->
+<div class="footer">
+    <!-- footer-services-list -->
+    <div class="footer-services-list">
+        <div class="footer-list-service-right">
+            <div class="footer-list-item">
+                <img src="img/poshtibani.png" alt="بارگذاری نشد">
+                <div class="footer-service-titele-item">
+                    <p>پشتیبانی <b>24 ساعته</b></p>
+                    <span>تماس با 021000</span>
+                </div>
+            </div>
+        <div class="footer-list-item">
+            <img src="img/ersal be sarasar.png" alt="بارگذاری نشد">
+            <div class="footer-service-titele-item">
+                    <p>فرصت 7 روزه <b> بازگشت کالا</b></p>
+                    <span>زمانت یازگشت کالا تا 7 روز</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer-list-service-left">
+                <div class="footer-list-item">
+                    <img src="img/zmanat.png" alt="بارگذاری نشد">
+                    <div class="footer-service-titele-item">
+                        <p>تضمین <b> کیفیت کالا</b></p>
+                        <span>خرید بهترین کالا موجود</span>
+                    </div>
+                </div>
+                <div class="footer-list-item">
+                    <img src="img/tahvil sari.png" alt="بارگذاری نشد">
+                    <div class="footer-service-titele-item">
+                        <p> ارسال به<b>  سرتاسر کشور</b></p>
+                        <span>ارسال کالا در کمترین زمان</span>
+                    </div>
+                </div>
+    </div>
+    </div>
+        <!-- footer-information -->
+    <div class="footer-information">
+            <!-- footer-right -->
+            <div class="footer-right">
+    
+                <!-- downlode -->
+                <div class="application">
+                    <p id="text-down"><b>دانلود</b> اپلیکیشن </p>
+                        <div class="box-app-logo">
+                            <div class="box-logo">
+                                <div class="text-box-logo">
+                                    <a href="#"><p>دانلود<b>مستقیم</b></p></a>
+                                    <span>نسخه اندروید</span>
+                                </div>
+                                <img src="img/android.png" alt="android" width="22%">
+                            </div>
+                            <div class="box-logo">
+                               <div class="text-box-logo">
+                                   <a href="#"><p>دانلود از<b>گوگل پلی</b></p></a>
+                                     <span>نسخه اندروید</span>
+                              </div>
+                              <img src="img/ic-google-play.png" alt="google play" width="15%">
+                            </div>
+                            <div class="box-logo">
+                                <div class="text-box-logo">
+                                    <a href="#"><p>دانلود<b> نسخه ویندوز</b></p></a>
+                                    <span>نسخه اندروید</span>
+                                  </div>
+                                  <img src="img/ic-white-64-windows.png" alt="windows" width="17%">
+                            </div>
+                        </div>
+                </div>
+    
+                <div class="certificates">
+                    <!-- namad ha -->
+                    <div class="symbol">
+                        <a href="#"><img src="img/gajmarket-enamad (1).png" alt=""></a>
+                        <a href="#"><img src="img/resaneh.png" alt=""></a>
+                        <a href="#"><img src="img/etehadieh.png" alt=""></a>
+                        <a href="#"><img src="img/anjoman.png" alt=""></a>
+                    </div>
+    
+                    <div class="contact">
+                        <div class="box-contact"><p>راه های ارتباطی با ما</p></div>
+                        <div class="footer-icon">
+                            <div class="network">
+                                <a href="#"><i class="fa fa-instagram"></i></a>
+                                <a href="#"><i class="fa fa-paper-plane"></i></a>
+                                <a href="#"><i class="fa fa-whatsapp"></i></a>
+                            </div>
+                            <div class="phone">
+                                <span>0921000</span><a href="#"><i class="fa fa-volume-control-phone"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- box-guide -->
+            <div class="box-guide">
+                    <div class="menu-kharid">
+                        <h4>راهنمای خرید</h4>
+                        <ul>
+                            <li><a href="#">چگونگی ثبت سفارش</a></li>
+                            <li><a href="#">چگونگی ارسال کالا</a></li>
+                            <li><a href="#">چگونگی پرداخت</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-servis">
+                        <h4>خدمات مشتریان</h4>
+                        <ul>
+                            <li><a href="see-more.html">معرفی تخفیف ها</a></li>
+                            <li><a href="">پرسش های متداول</a></li>
+                            <li><a href="">بازگشت کالا</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-map">
+                        <h4>نقشه سایت</h4>
+                        <ul>
+                            <li><a href="aboutUs.html">درباره ما</a></li>
+                            <li><a href="contactUs.html">تماس با ما</a></li>
+                            <li><a href="home.html">صفحه اصلی</a></li>
+                        </ul>
+                    </div>
+    </div>
+    </div>
+    </div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="slick-1.8.1/slick/slick.js"></script>
+    <script src="js/see-more.js" ></script>
+    <script src="js/header-footer.js"></script>
+</body>
+</html>

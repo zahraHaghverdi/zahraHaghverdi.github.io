@@ -1,0 +1,73 @@
+.fillter-product{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#myBtnContainer{
+  width: 35%;
+  border: 1px solid #eee;
+  padding: 10px;
+  margin-left: 5%;
+  border-radius: 5px;
+}
+#myBtnContainer h2{
+  text-align: center;
+  margin-bottom: 5%;
+  color: var(--colorTitele);
+}
+/* Style the buttons */
+#myBtnContainer .btn{
+  display: block;
+  background: #bd1e51;
+    color: #fff;
+    transition: all .5s ease;
+    box-shadow: inset 1px 5px 10px #d8255e;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 11px; 
+    margin: 3% auto;
+    font-family: 'IRANSansWeb';
+    width: 90%;
+    border-radius: 5px 20px 5px 20px;
+}
+#myBtnContainer .btn:hover{
+  background-color: #e14f4f;
+  box-shadow: inset 2px 6px 11px #f25050;
+}
+#myBtnContainer .btn.active {
+  background-color: #f25050;
+  color: white;
+}
+
+
+.container {
+  overflow: hidden;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  width: 80%;
+}
+.filterDiv {
+  display: none; /* Hidden by default */
+  margin: 4% auto;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+
+
+@media only screen and (max-width: 1033px) {
+  #myBtnContainer{width: 28%;}
+  #myBtnContainer .btn{padding: 6px;}
+}
+@media only screen and (max-width: 957px) {
+  .fillter-product{display: block; margin-top: 20%;}
+  #myBtnContainer , .container{width:100%;}
+  #myBtnContainer .btn{padding: 10px; margin: 2% auto;}
+}
+@media only screen and (max-width: 670px) {
+  .container{display: block;}
+}

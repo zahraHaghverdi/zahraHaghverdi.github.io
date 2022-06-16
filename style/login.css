@@ -1,0 +1,113 @@
+main{display: flex;}
+/* box-login   box-submit*/
+.box-login , .box-submit , .forgat-box{
+    background-color: var(--backgroundLogin);
+    box-shadow: -2px -1px 10px 5px var(--backgroundLoginshadw);
+    width: 50%;
+    margin: 8% auto;
+    padding: 10px;
+}
+.box-login a , .box-submit a , .forgat-box a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.box-footer h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: var(--colorTitele);
+}
+.box-footer h1 a{
+    color: #ff2b75;
+}
+
+/* header-box */
+.header-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2% 5% 5%;
+}
+
+.box-form , .box-footer{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.header-box p{
+    font-size: 30px;
+    color: var(--cadrText);
+    font-weight: 700;
+}
+
+/* box-form */
+.box-form form input{
+    width: 90%;
+    margin-bottom: 2%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #ffeb3b;
+    transition: all 0.2s ease-out;
+    outline: none;
+    font-family: 'IRANSansWeb';
+}
+.box-form form input:hover{
+    border: 2px solid #85c441;
+}
+.box-form span{
+    font-size: 13px;
+    color: #ff2b75;
+}
+.box-footer #box-footer-button{
+    font-family: 'IRANSansWeb';
+    margin-bottom: 5%;
+    width: 65%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: #bd1e51;
+    transition: all .5s ease;
+    box-shadow: inset 1px 5px 10px #d8255e;
+    cursor: pointer;
+    font-size: 20px;
+    color: #323232;
+    border-radius: 8px;
+    transition: all 0.5s ease;
+}
+.box-footer #box-footer-button:hover{
+    background-color: #e14f4f;
+    box-shadow: inset 2px 6px 11px #f25050;   
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.forgatPassword h1 a{
+    color: #6466eb;
+    font-size: 14px;
+    border-bottom: 1px dashed;
+}
+
+.forgatPassword{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5%;
+}
+.forgatPassword form label , .forgatPassword form input[tbody= "checkbox"]{
+    color: #6466eb;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 500px) {
+    .forgatPassword{display: block;}
+    .forgatPassword h1 a{
+        margin-top: 8%;
+    }
+    .box-form form input{width: 100%;}
+    .box-login , .box-submit , .forgat-box{
+        margin-top: 19%;
+        width: 90%;
+    }
+}

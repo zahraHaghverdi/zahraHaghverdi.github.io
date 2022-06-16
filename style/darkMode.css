@@ -1,0 +1,42 @@
+/*darkMode */
+
+body {
+	--backgroundBody: #fff;
+    --colorTitele: #1b1dbd; 
+    --cadrText: #333; 
+	--footer: linear-gradient(333.67deg,#f6f8fb 68%,#ebedf0 113.46%);
+	--footerService : #eef1f4;
+	--footerServicetextp : #383838;
+	--box-guidep : #0e1935;
+	--network: #0e1935;
+	--backgroundLogin : #e9e9e9;
+	--backgroundLoginshadw : #ddd;
+
+	--backgroundbox : #fff;
+
+	--inputbackground: #fafaf0;
+	--inputborder: #dfe1e8;
+
+	--boxsearch : #ffa300;
+	--boxsearchcolor : #fff;
+}
+body.dark {
+	--backgroundBody: #333333;
+	--colorTitele: #ddddff; 
+	--cadrText: #f1ebeb; 
+	--footer:linear-gradient(333.67deg,#2e2e2e 68%,#0d1c34 113.46%);
+	--footerService : #282526;
+	--footerServicetextp : #fff;
+	--box-guidep : #fff;
+	--network: #d1cbcb;
+	--backgroundLogin : #363636;
+	--backgroundLoginshadw : #4a4949;
+
+	--backgroundbox : #404040;
+
+	--inputbackground: #363632;
+	--inputborder: #73757a;
+
+	--boxsearch : #1b1dbd;
+	--boxsearchcolor : #fff;
+}

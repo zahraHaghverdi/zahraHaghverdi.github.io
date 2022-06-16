@@ -1,0 +1,33 @@
+body{direction: rtl; background: var(--backgroundLogin);}
+
+
+/* --------------------------------------------- */
+/* main */
+.box-about{
+    padding: 30px;
+    border-radius: 25px;
+    width: 90%;
+    background: var(--backgroundbox);
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%);
+    font-size: 1rem;
+    direction: rtl;
+    margin: 10% auto;
+}
+.box-about h1{
+    font-weight: bold;
+    color: var(--colorTitele);
+    margin-bottom: 20px;
+    line-height: 1;
+    font-size: 25px;
+    display: block;
+    margin-bottom: 15px;
+}
+.box-about p{
+    line-height: 2;
+    font-size: 15px;
+    text-align: justify;
+    color: var(--cadrText);
+}
+@media only screen and (max-width: 500px) {
+    .box-about{margin-top: 20%;}
+}

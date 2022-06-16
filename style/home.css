@@ -1,0 +1,199 @@
+
+/* main */
+.main{
+    margin: 7%;
+}
+.discount , .banner-middle,.box-slider-shoe{margin: 5% auto;}
+
+
+
+/* sliderMain */
+.sliderMain img{
+    border-radius: 25px;
+    min-width: 100%;
+}
+@media only screen and (max-width: 838px) {
+    .sliderMain img{margin-top: 5%;}
+}
+@media only screen and (max-width: 553px) {
+    .sliderMain img{margin-top: 10%;}
+}
+@media only screen and (max-width: 394px) {
+    .sliderMain img{margin-top: 15%;}
+}
+
+
+/* box-slider-shoe  */
+.box-slider-shoe .tite{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    margin-bottom: 2%;
+    border-bottom: 1px dotted #f7f43ee3;
+}
+.box-slider-shoe .tite h3{
+    /* color: #1b1dbd; */
+    color: var(--colorTitele);
+}
+.box-slider-shoe .tite #More-observations{
+    background: #bd1e51;
+    color: #fff;
+    padding: 6px 13px;
+    border-radius: 5px;
+    font-size: 13px;
+    transition: all .5s ease-out;
+    box-shadow: inset 1px 5px 10px #d8255e;
+}
+.box-slider-shoe .tite #More-observations:hover{
+    background-color: #e14f4f;
+    box-shadow: inset 2px 6px 11px #f25050;
+}
+@media only screen and (max-width: 436px) {
+    .box-slider-shoe .tite h3{
+        font-size: 15px;
+    }
+    .box-slider-shoe .tite #More-observations{
+        padding: 3px 10px;
+        font-size: 12px;
+    }
+}
+
+/* cadr-product */
+.part-box-slider-shoe .slick-slide div{width: 90%; margin: 3% auto;}
+.cadr-product{
+    margin: 5px;
+    padding: 5%;
+    cursor: pointer;
+    transition: all .5s ease;
+    box-shadow: 0px 1px 5px 1px #fae2e2;
+    border-radius: 10px 50px 10px 50px;
+}
+.cadr-product:hover{
+    box-shadow: 0px 1px 5px 1px #f8cdcc;
+}
+.cadr-product:hover img{
+    padding: 4%;
+    transition: all .5s ease;
+    transform: rotate(-20deg);
+}
+.cadr-text p{
+    line-height: 1.5;
+    margin: 5% auto;
+    font-size: 14px;
+    text-align: right;
+    color: var(--cadrText);
+}
+.cadr-btn-shup button{
+    background: #bd1e51;
+    color: #fff;
+    transition: all .5s ease;
+    box-shadow: inset 1px 5px 10px #d8255e;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 3px 10px; 
+    font-family: 'IRANSansWeb';
+    width: 100%;
+    border-radius: 5px 20px 5px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cadr-btn-shup button:hover{
+    background-color: #e14f4f;
+    box-shadow: inset 2px 6px 11px #f25050;   
+    transition: all .5s ease;
+}
+.cadr-btn-shup button span{
+    display: none;
+    padding-right: 5px;
+    transition: all .5s ease;
+}
+.cadr-btn-shup button:hover span{
+    display: flex;
+    transition: all .5s ease;
+}
+#cadr-Price{
+    font-size: 14px;
+    transition: all .5s ease-in;
+    margin-bottom: 5%;
+    font-weight: bold;
+    color: var(--colorTitele);
+}
+
+/* Discount-product */
+.Discount-product{margin-top: 15%;}
+
+/* our-Suggestion */
+.our-suggestion{
+    background: #1b1dbd;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1% 2%;
+    border-radius: 10px;
+}
+.item-suggestion{flex: 1 1 100px;}
+.txt-suggestion h1{
+    color: #fff;
+    margin-bottom: 12px;
+}
+.txt-suggestion p{
+    color: rgb(218, 218, 218);
+    font-size: 15px;
+    margin-bottom: 5%;
+}
+#btn-suggestion{
+    background-color: #bd1e51;
+    box-shadow: inset 1px 5px 10px #d8255e;
+    color: #fff;
+    padding: 10px 18px;
+    font-size: 15px;
+    border-radius: 5px;
+    transition: all .5s ease-in;
+    font-family: 'IRANSansWeb';
+}
+#btn-suggestion:hover{box-shadow: inset 2px 6px 11px #f25050;  }
+.our-suggestion img{
+    transform: rotate(-20deg);
+}
+@media only screen and (max-width: 553px) {
+    .our-suggestion{display: block;}
+}
+@media only screen and (max-width: 394px) {
+    .txt-suggestion h1 , .txt-suggestion p{text-align: center;}
+}
+
+/* grouping-product */
+.grouping-product{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.grouping-product a{
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+.grouping-product a:nth-child(2){margin: 1% 3%;}
+.grouping-product a img{
+    border-radius: 5px;
+    opacity: .8;
+}
+.grouping-product a{
+    padding: 15px;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10%;
+    transition: all .5s ease-in;
+}
+.grouping-product a:hover img{
+    padding: 5px;
+    opacity: 1;
+    transition: all .5s ease-in;
+}
+@media only screen and (max-width: 838px) {
+    .grouping-product{display: block;}
+    .grouping-product a{padding: 0; margin: 0 auto;}
+    .grouping-product a:nth-child(2){margin:0;}
+}
